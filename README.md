@@ -2,6 +2,8 @@
 
 A user interface for [all pairs py](https://github.com/thombashi/allpairspy) by [@thombashi](https://github.com/thombashi).
 
+## How to use it
+
 You can either download `allpairs.exe` and run the executable or download the repository, install the requirements, and run the code yourself.
 
 ![image](https://github.com/IgnacioSambrailo/AllPairsUI/assets/105213331/40ae6299-fac8-4c65-8e52-48b67a14f2bb)
@@ -21,3 +23,5 @@ Select the Excel file and choose the location where you want to save the results
 If everything went well, a .csv file should have been created with all the combinations:
 
 ![image](https://github.com/IgnacioSambrailo/AllPairsUI/assets/105213331/4a7fa51b-a459-41ca-b794-9b474513a1bc)
+
+### Feel free to contribute, share your opinion, issue or recommendation!
