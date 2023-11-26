@@ -147,7 +147,7 @@ class LoadingScreen(ttk.Frame):
             self.framerate = im.info["duration"]
 
         self.img_container = ttk.Label(self, image=next(self.image_cycle))
-        self.img_container.pack(fill="both", expand="yes")
+        self.img_container.pack(anchor=CENTER, expand=True)
         self.after(self.framerate, self.next_frame)
 
     def next_frame(self):
@@ -162,7 +162,7 @@ class Application(ttk.Window):
         self.geometry("500x400")
         self.resizable(False, False)
         self.title("All Pairs UI")
-        self.themename = Style('solar')  
+        self.themename = Style('superhero')  
         self.frames = {}
         self.create_frames()
         self.show_frame(MainScreen)
